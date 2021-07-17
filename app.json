@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "calculator",
+    "name": "Quick Math Calc",
     "slug": "snack-4760cc82-89ba-49f3-8ca1-a5e2d9fb9c67",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quickmathcalc"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [],
+      "package": "com.quickmathcalc",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
